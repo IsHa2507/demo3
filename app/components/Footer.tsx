@@ -15,9 +15,12 @@ export default function Footer() {
           {/* Company Info */}
           <div className="md:col-span-2">
             <div className="mb-8">
-              <h3 className="text-3xl font-bold mb-4 bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent" style={{ fontFamily: 'var(--font-pacifico)' }}>
-                logo
-              </h3>
+             <img
+  src="/logo.svg"
+  alt="SenderBot Logo"
+  className="h-10 mb-4"
+/>
+
               <p className="text-gray-400 leading-relaxed max-w-md font-light">
                 Transform your WhatsApp communication with our powerful Business API platform. 
                 Automate, scale, and engage customers like never before.
@@ -34,25 +37,25 @@ export default function Footer() {
           
           {/* Quick Links */}
           <div>
-            <h4 className="text-lg font-semibold mb-6 text-cyan-300">Quick Links</h4>
+            <h4 className="text-lg font-semibold mb-6 text-green-400">Quick Links</h4>
             <ul className="space-y-3">
-              <li><a href="#features" className="text-gray-400 hover:text-cyan-300 transition-colors cursor-pointer group flex items-center gap-2">
+              <li><a href="#features" className="text-gray-400 hover:text-green-400 transition-colors cursor-pointer group flex items-center gap-2">
                 Features
                 <i className="ri-arrow-right-line opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all text-xs"></i>
               </a></li>
-              <li><a href="#pricing" className="text-gray-400 hover:text-cyan-300 transition-colors cursor-pointer group flex items-center gap-2">
+              <li><a href="#pricing" className="text-gray-400 hover:text-green-400 transition-colors cursor-pointer group flex items-center gap-2">
                 Pricing
                 <i className="ri-arrow-right-line opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all text-xs"></i>
               </a></li>
-              <li><a href="#integrations" className="text-gray-400 hover:text-cyan-300 transition-colors cursor-pointer group flex items-center gap-2">
+              <li><a href="#integrations" className="text-gray-400 hover:text-green-400 transition-colors cursor-pointer group flex items-center gap-2">
                 Integrations
                 <i className="ri-arrow-right-line opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all text-xs"></i>
               </a></li>
-              <li><a href="#demo" className="text-gray-400 hover:text-cyan-300 transition-colors cursor-pointer group flex items-center gap-2">
+              <li><a href="#demo" className="text-gray-400 hover:text-green-400 transition-colors cursor-pointer group flex items-center gap-2">
                 Demo
                 <i className="ri-arrow-right-line opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all text-xs"></i>
               </a></li>
-              <li><a href="#support" className="text-gray-400 hover:text-cyan-300 transition-colors cursor-pointer group flex items-center gap-2">
+              <li><a href="#support" className="text-gray-400 hover:text-green-400 transition-colors cursor-pointer group flex items-center gap-2">
                 Support
                 <i className="ri-arrow-right-line opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all text-xs"></i>
               </a></li>
@@ -61,17 +64,17 @@ export default function Footer() {
           
           {/* Legal & Contact */}
           <div>
-            <h4 className="text-lg font-semibold mb-6 text-purple-300">Legal & Contact</h4>
+            <h4 className="text-lg font-semibold mb-6 text-green-400">Legal & Contact</h4>
             <ul className="space-y-3">
-              <li><a href="/privacy" className="text-gray-400 hover:text-purple-300 transition-colors cursor-pointer group flex items-center gap-2">
+              <li><a href="/privacy" className="text-gray-400 hover:text-green-400 transition-colors cursor-pointer group flex items-center gap-2">
                 Privacy Policy
                 <i className="ri-arrow-right-line opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all text-xs"></i>
               </a></li>
-              <li><a href="/terms" className="text-gray-400 hover:text-purple-300 transition-colors cursor-pointer group flex items-center gap-2">
+              <li><a href="/terms" className="text-gray-400 hover:text-green-400 transition-colors cursor-pointer group flex items-center gap-2">
                 Terms of Service
                 <i className="ri-arrow-right-line opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all text-xs"></i>
               </a></li>
-              <li><a href="/contact" className="text-gray-400 hover:text-purple-300 transition-colors cursor-pointer group flex items-center gap-2">
+              <li><a href="/contact" className="text-gray-400 hover:text-green-400 transition-colors cursor-pointer group flex items-center gap-2">
                 Contact Us
                 <i className="ri-arrow-right-line opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all text-xs"></i>
               </a></li>

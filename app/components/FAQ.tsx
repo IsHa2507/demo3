@@ -99,13 +99,16 @@ export default function FAQ() {
               ))}
             </div>
           </div>
-          <button className="group relative text-green-400 font-semibold hover:text-green-300 transition-colors cursor-pointer">
-            <span className="relative z-10 flex items-center gap-2">
-              Contact our support team
-              <i className="ri-arrow-right-line group-hover:translate-x-1 transition-transform"></i>
-            </span>
-            <div className="absolute inset-0 bg-green-600/20 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-300 -inset-2"></div>
-          </button>
+          <button className="relative text-green-400 font-semibold cursor-pointer bg-transparent group">
+  <span className="relative z-10 flex items-center gap-2">
+    <span className="transition-all duration-300 group-hover:underline group-hover:underline-offset-4 group-hover:text-green-300">
+      Contact our support team
+    </span>
+    <i className="ri-arrow-right-line transform transition-transform duration-300 group-hover:translate-x-1"></i>
+  </span>
+</button>
+
+
         </div>
       </div>
     </section>
