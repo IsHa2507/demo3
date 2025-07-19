@@ -32,13 +32,17 @@ export default function Header() {
         <div className="flex items-center justify-between h-16 lg:h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-3 group">
-            <div className="relative">
+            {/* <div className="relative">
               <div className="w-10 h-10 bg-gradient-to-r from-green-400 to-green-600 rounded-lg flex items-center justify-center transform group-hover:rotate-3 transition-transform duration-300">
                 <span className="text-black font-bold text-xl">S</span>
               </div>
               <div className="absolute -top-1 -right-1 w-3 h-3 bg-green-400 rounded-full animate-pulse"></div>
-            </div>
-            <span className="text-2xl font-bold text-white">SenderBOT</span>
+            </div> */}
+             <img
+    src="/logo.svg"
+    alt="SenderBOT Logo"
+    className="h-6 sm:h-8 object-contain"
+  />
           </Link>
 
           {/* Desktop Navigation */}
