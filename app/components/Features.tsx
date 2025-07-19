@@ -6,7 +6,7 @@ const features = [
   {
     title: 'Neural Messaging',
     subtitle: 'AutoBot.AI',
-    description: 'Quantum-powered message automation with predictive response algorithms',
+    description: 'Seamless fusion of AI consciousness with human support protocols',
     icon: 'ri-robot-line',
     gradient: 'from-cyan-500 via-blue-500 to-indigo-600',
     stats: '99.7% Accuracy',
@@ -14,7 +14,7 @@ const features = [
   {
     title: 'Quantum Broadcast',
     subtitle: 'MassScale.EXE',
-    description: 'Instantaneous multi-dimensional campaign deployment across infinite channels',
+    description: 'Seamless fusion of AI consciousness with human support protocols',
     icon: 'ri-broadcast-line',
     gradient: 'from-purple-500 via-pink-500 to-rose-600',
     stats: '1M+ Reach/sec',
